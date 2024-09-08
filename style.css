@@ -15,11 +15,16 @@ body {
   background-size: cover;
   overflow-y: scroll; /* Разрешить вертикальную прокрутку */
   height: auto; /* Разрешить содержимому увеличиваться */
+  overflow-x: hidden; /* Отключаем горизонтальную прокрутку */
+ 
 }
+
 
 html {
     scroll-behavior: smooth; /* Плавная прокрутка */
-  }
+    overflow-x: hidden; /* Отключаем горизонтальную прокрутку */
+}
+
 
 .navbar {
   display: flex;
