@@ -181,7 +181,7 @@ html {
 /*logo*/
 .logo {
   position: absolute; /* Фиксируем логотип на экране */
-  margin-top: -80%;
+  margin-top: -60%;
   margin-left: 30%;
   z-index: 1000; /* Устанавливаем высокий z-index, чтобы логотип был поверх остальных элементов */
 }
