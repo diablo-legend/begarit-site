@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Begarit │ Место встреч!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="text1">
+            <h1>Begarit</h1>
+        </div>
+        <a href="https://discord.gg/qShp6JnuMD" target="_blank" class="button">ВПЕРЕД!</a>
+        <a href="https://discord.gg/qShp6JnuMD" target="_blank" class="button2">
+        <img src="img/Info_icon.png" alt="Icon" class="icon" /> ИНфО</a>
+    </header>
+    <logo>
+        <div class="logo">
+            <img src="img/logo.svg" alt="логотип">
+        </div>
+    </logo>
+    <nav class="navbar">
+        <img src="img/logo2.svg" alt="BG Project Logo">
+        <ul class="menu">
+            <li><a href="#"><img src="img/store_icon.svg" alt="Магазин"> Магазин</a></li>
+            <li><a href="#"><img src="img/contacts_icon.svg" alt="Контакты"> Контакты</a></li>
+            <li><a href="#"><img src="img/fire_icon.svg" alt="Чокаво"> Чокаво</a></li>
+        </ul>
+        <div class="burger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            const burger = document.querySelector('.burger');
+            menu.classList.toggle('active');
+            burger.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
